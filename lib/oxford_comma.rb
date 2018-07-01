@@ -6,7 +6,6 @@ def oxford_comma(strings)
 
   if strings.length == 1
     strings.join
-  elsif condition
+  end 
 
-  
 end
