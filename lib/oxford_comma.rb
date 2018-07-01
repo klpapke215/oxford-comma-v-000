@@ -9,7 +9,7 @@ def oxford_comma(strings)
     strings.each_with_index do |string, index|
       if index < strings.length
         sentence << string + ", "
-      elsif index == 2
+      elsif index = 2
         sentence << ", and " + string
       end
     end
