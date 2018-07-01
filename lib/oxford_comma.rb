@@ -7,9 +7,9 @@ def oxford_comma(strings)
   elsif strings.length > 2
     sentence = []
     strings.each_with_index do |string, index|
-      if index < strings.length - 1
+      if index < strings.length
         sentence << string + ", "
-      elsif index == strings.length - 1
+      else
         sentence << ", and " + string
       end
     end
