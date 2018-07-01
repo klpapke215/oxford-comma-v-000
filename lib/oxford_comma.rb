@@ -10,7 +10,7 @@ def oxford_comma(strings)
       if index < strings.length
         sentence << string + ", "
       elsif index == strings.length
-        sentence << " and " + string
+        sentence << ", and " + string
       end
     end
     sentence.join
